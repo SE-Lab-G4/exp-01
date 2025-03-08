@@ -22,3 +22,31 @@ To ensure stable and high-quality code, we have set up the following branch prot
    git clone https://github.com/YOUR_ORG/exp-01.git
    cd exp-01
 
+
+## Feature Branches
+
+To ensure modular and structured development, we have created dedicated feature branches for different modules:
+
+- **`feature/iot-sensors`**:  
+  This branch is used for developing the **IoT sensor module**. It will handle data collection, processing, and communication with the backend.
+
+- **`feature/web-dashboard`**:  
+  This branch is used for developing the **web dashboard**. It will be responsible for visualizing IoT data and providing user interaction.
+
+### Contribution Workflow
+
+1. **Switch to the latest `develop` branch**:
+   ```bash
+   git checkout develop
+   git pull origin develop
+   ```
+2. **Create a feature branch**:
+   ```bash
+   git checkout -b feature/your-feature develop
+   ```
+3. **Push the branch to GitHub**:
+   ```bash
+   git push -u origin feature/your-feature
+   ```
+4. **Submit a Pull Request** to merge your changes into `develop`.
+
