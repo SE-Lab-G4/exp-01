@@ -50,3 +50,33 @@ To ensure modular and structured development, we have created dedicated feature 
    ```
 4. **Submit a Pull Request** to merge your changes into `develop`.
 
+
+## Commit Message Guidelines
+
+To maintain a clear and structured commit history, all commit messages should follow this format:
+
+```
+[Type] Short, descriptive message
+
+Description of changes (if needed)
+Issue reference: #IssueNumber
+```
+
+### **Commit Types:**
+- **feat**: Adding a new feature  
+- **fix**: Fixing a bug  
+- **docs**: Documentation updates  
+- **style**: Code formatting (no logic changes)  
+- **refactor**: Code restructuring without changing functionality  
+- **test**: Adding or updating tests  
+- **chore**: Maintenance tasks (build, CI/CD, dependencies, etc.)  
+
+### **Example Commit Messages:**
+```bash
+git commit -m "[feat] Implement IoT sensor data streaming"
+
+git commit -m "[fix] Resolve memory leak in dashboard module"
+
+git commit -m "[docs] Update README with commit standards"
+```
+
