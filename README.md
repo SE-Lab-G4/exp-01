@@ -80,3 +80,32 @@ git commit -m "[fix] Resolve memory leak in dashboard module"
 git commit -m "[docs] Update README with commit standards"
 ```
 
+
+## Project Milestones
+
+To track major phases of the project, the following milestones have been created:
+
+- **M1: Repository and Branch Setup**  
+  This milestone marks the completion of repository setup, branch protection, and commit guidelines documentation.  
+  _Git Tag: M1_
+
+- **M2: Feature Development Phase**  
+  This milestone marks the beginning of feature development, including the IoT sensor module and web dashboard.  
+  _Git Tag: M2_
+
+- **M3: CI/CD Integration** *(To be tagged later)*  
+  This milestone represents the integration of a Continuous Integration/Continuous Deployment pipeline for automated testing and deployment.
+
+- **M4: Release v1.0** *(To be tagged later)*  
+  This milestone represents the first stable release of the project.
+
+### **Git Milestone Tags**
+To list all tagged milestones, run:
+```bash
+git tag
+```
+To check details of a specific milestone tag, run:
+```bash
+git show M1
+```
+
