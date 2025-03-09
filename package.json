@@ -1,0 +1,19 @@
+{
+  "name": "exp-01",
+  "version": "1.0.0",
+  "description": "## Overview This project is part of an IoT research and development experiment. The repository follows a structured branching strategy to ensure modular and efficient development.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SE-Lab-G4/exp-01.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SE-Lab-G4/exp-01/issues"
+  },
+  "homepage": "https://github.com/SE-Lab-G4/exp-01#readme"
+}
