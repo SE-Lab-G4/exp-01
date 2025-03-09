@@ -11,4 +11,4 @@ def read_sensor_data():
 if __name__ == "__main__":
     while True:
         print(read_sensor_data())
-        time.sleep(1)
+        time.sleep(2)
