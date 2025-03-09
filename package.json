@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/SE-Lab-G4/exp-01/issues"
   },
-  "homepage": "https://github.com/SE-Lab-G4/exp-01#readme"
+  "homepage": "https://github.com/SE-Lab-G4/exp-01#readme",
+  "dependencies": {
+    "globals": "^16.0.0"
+  }
 }
