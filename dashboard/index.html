@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IoT Dashboard</title>
+</head>
+<body>
+    <h1>IoT Sensor Data Visualization for Smart Home</h1>
+    <div id="data"></div>
+
+    <script>
+        function fetchData() {
+            let fakeData = {
+                temperature: (20 + Math.random() * 10).toFixed(2),
+                humidity: (30 + Math.random() * 30).toFixed(2),
+                timestamp: new Date().toISOString()
+            };
+
+            document.getElementById("data").innerText = JSON.stringify(fakeData, null, 2);
+        }
+
+        setInterval(fetchData, 2000);
+    </script>
+</body>
+</html>
