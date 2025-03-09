@@ -9,6 +9,6 @@ def read_sensor_data():
     }
 
 if __name__ == "__main__":
-    for _ in range(5):
+    while True:
         print(read_sensor_data())
         time.sleep(1)
